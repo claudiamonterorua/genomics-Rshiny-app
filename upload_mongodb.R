@@ -3,7 +3,7 @@ library(mongolite)
 con <- mongo(
   collection = "logs",
   db = "genomics_db",
-  url = "mongodb+srv://claudiamonterorua:Cmr15acc@genomics-cluster.hfue3hm.mongodb.net/?appName=genomics-cluster"
+  url = "YOUR_MONGODB_URL"
 )
 
 files <- list.files("json_logs", full.names = TRUE)
