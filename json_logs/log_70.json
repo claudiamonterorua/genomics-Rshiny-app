@@ -1,0 +1,61 @@
+{
+  "@context": "http://www.w3.org/ns/prov#",
+  "@id": "urn:uuid:70",
+  "@type": "Activity",
+  "label": "Process sample_ 70",
+  "startTime": "2026-04-23T08:39:19Z",
+  "endTime": "2026-04-23T08:40:37Z",
+  "executionNode": "pikachu",
+  "sourceDirectory": "/data/input/",
+  "destinationDirectory": "/data/output/sample_70",
+  "wasAssociatedWith": [
+    {
+      "@type": "SoftwareAgent",
+      "label": "seqfu",
+      "version": "1.22.3"
+    },
+    {
+      "@type": "SoftwareAgent",
+      "label": "sha256sum",
+      "version": "8.32"
+    },
+    {
+      "@type": "SoftwareAgent",
+      "label": "Nextflow pipeline",
+      "repository": "local",
+      "commitId": "N/A",
+      "revision": "N/A"
+    },
+    {
+      "@id": "urn:person:salle_alumni",
+      "@type": "Person",
+      "label": "User: salle_alumni",
+      "actedOnBehalfOf": {
+        "@id": "https://ror.org/01y990p52",
+        "@type": "Organization",
+        "label": "La Salle"
+      }
+    }
+  ],
+  "generated": [
+    {
+      "@type": "Entity",
+      "label": "SHA256",
+      "description": "Checksum validation",
+      "value": "FAIL"
+    },
+    {
+      "@type": "Entity",
+      "label": "Seqfu",
+      "description": "FASTQ integrity",
+      "value": "FAIL"
+    },
+    {
+      "@type": "Entity",
+      "label": "FASTQ Files",
+      "totalSizeBytes": 3169042875,
+      "category": "Genet",
+      "fileCount": 4
+    }
+  ]
+}
