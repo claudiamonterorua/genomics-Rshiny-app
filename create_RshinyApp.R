@@ -51,9 +51,9 @@ ui <- fluidPage(
             ),
             
             tabPanel("Details",
-                     plotOutput("process_plot"),
                      plotOutput("fail_plot"),
                      plotOutput("scatter_plot"),
+                     plotOutput("process_plot"),
                      plotOutput("files_plot")
             ),
             
